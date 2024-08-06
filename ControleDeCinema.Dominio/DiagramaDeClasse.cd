@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ControleDeCinema.Dominio.Sala">
+    <Position X="4" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sala.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ControleDeCinema.Dominio.Assento">
+    <Position X="0.5" Y="0.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ModuloAssento\Assento.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ControleDeCinema.Dominio.Filme">
+    <Position X="7.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAQAAAAAAAAAAAABA=</HashCode>
+      <FileName>Filme.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ControleDeCinema.Dominio.Sessao">
+    <Position X="4" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAMEQAAAIAAAAAAAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sessao.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Filme" />
+      <Property Name="Sala" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ControleDeCinema.Dominio.Ingresso">
+    <Position X="0.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAACAABAAAAAAAAAAAEAAAAAABAAAAAQ=</HashCode>
+      <FileName>Ingresso.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ControleDeCinema.Dominio.Funcionario">
+    <Position X="7" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAIAAQAACAAAA=</HashCode>
+      <FileName>Funcionario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
